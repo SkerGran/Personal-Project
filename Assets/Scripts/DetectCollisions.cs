@@ -4,20 +4,15 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static bool crash = false;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static bool Crash { get => crash; set => crash = value; }
+
+
     void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
         Destroy(other.gameObject);
+        Crash = true;
     }
 }

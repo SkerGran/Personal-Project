@@ -1,0 +1,9 @@
+﻿01. Create proto:										done;
+02. Add Player controller (move and shoot)				done;
+03. Add moveing and repeating ground and bounds			done;
+04. Add escapeing civilian								done;
+05. Add shelter's spawn manager							done;
+06. Add civilians to the shelter						done;
+07. Add enemies											x;
+08. Add scoreing										x;
+09. Add UI												x;
